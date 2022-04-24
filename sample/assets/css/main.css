@@ -1,0 +1,51 @@
+/* @import url('./modules/_common.css');
+@import url('./modules/_header.css');
+@import url('./modules/_hero.css');
+@import url('./modules/_contents.css');
+@import url('./modules/_service.css');
+@import url('./modules/_footer.css');
+@import url('./modules/_utils.css');
+@import url('./modules/_jQuery.css'); */
+
+.l-header {
+  height: 100px;
+  width: 100vw;
+  background: rgba(255, 255, 255, 0.87);
+}
+
+.fix-header {
+  position: fixed;
+  display: flex;
+  top: -70px;  
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  font-size: 2em;
+  text-align: center;
+  color: #fff;
+  background: black;
+  box-sizing: border-box;
+  transition: .5s;
+}
+
+.fix-headerImage{
+  width: 100%;
+  height: 100px;
+}
+
+.fix-headerContent{
+  display: flex;
+}
+
+.nav-list{
+  list-style: none;
+  text-decoration: none;
+}
+
+.fix-header.is-show {
+  top: 0;
+}
+.content {
+  height: 2000px;
+  display: none;
+}

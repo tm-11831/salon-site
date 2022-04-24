@@ -1,0 +1,14 @@
+.l-mainTop{
+  display: flex;
+  justify-content: center;
+  background-color: red;
+}
+
+.l-mainTop__image{
+  width: 135px;
+  height: 85px;
+}
+
+.slide{
+  list-style: none;
+}
