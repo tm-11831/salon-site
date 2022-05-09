@@ -14,23 +14,6 @@ $(document).ready(function(){
     infinite: true,
     dots:false,
     slidesToScroll: 1,
-    arrows: true,
     slidesToShow: 1,
-    responsive:[
-      {
-        breakpoint:992,
-        settings:{
-          slidesToShow:1,
-          slidesToScroll:1
-        },
-      },
-      {
-        breakpoint:768,
-        settings:{
-          slidesToShow:1,
-          slidesToScroll:1
-        }
-      }
-    ]
   });
 });
